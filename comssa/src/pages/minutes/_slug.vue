@@ -1,7 +1,6 @@
 <template>
-  <div class="mydiv">
+  <div class="minutes">
     <article>
-      <h1>{{ page.title }}</h1>
       <nuxt-content :document="page" />
     </article>
   </div>
@@ -20,14 +19,5 @@ export default {
 </script>
 
 <style scoped>
-.mydiv {
-    /*These settings centre the content in mydiv on the component displayed */
-    margin: auto;
-    margin-top: 100px;
-    width: 80%;
-    max-width: 1400px;
-}
-
-/*Reference your own CSS file once you start working on this - 
-You will need to use media queries to make it responsive  */
+@import '~/assets/css/minutes.css';
 </style>
