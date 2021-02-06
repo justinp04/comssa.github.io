@@ -1,9 +1,7 @@
 <template>
   <div class="minutes">
     <h1>{{ page.title }}</h1>
-    <article>
-      <nuxt-content :document="page" />
-    </article>
+    <nuxt-content :document="page" />
   </div>
 </template>
 
