@@ -1,5 +1,6 @@
 <template>
   <div class="minutes">
+    <h1>{{ page.title }}</h1>
     <article>
       <nuxt-content :document="page" />
     </article>
@@ -9,7 +10,7 @@
 <script>
 export default {
   async asyncData ({ $content, params }) {
-    const page = await $content('minutes', params.slug).fetch()
+    const page = await $content('minutes', params.minute, 'index').fetch()
 
     return {
       page
