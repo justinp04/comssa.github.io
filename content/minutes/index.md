@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Meeting minutes
+title: Meeting Minutes
 ---
 
 ## 2018
