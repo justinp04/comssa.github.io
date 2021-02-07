@@ -1,0 +1,674 @@
+<!doctype html>
+<html data-n-head-ssr>
+  <head>
+    <title>ComSSA</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" viewport="width=device-width,initial-scale=1.0"><meta data-n-head="ssr" description="Computer Science Students Association"><meta data-n-head="ssr" name="og:title" content="ComSSA"><meta data-n-head="ssr" name="og:type" content="website"><meta data-n-head="ssr" name="og:url" content="https://comssa.org.au/"><meta data-n-head="ssr" name="og:image" content="https://i.imgur.com/MffpQVL.jpg"><meta data-n-head="ssr" name="theme-color" content="#4559A7"><meta data-n-head="ssr" name="twitter:card" content="summary_large_image"><link data-n-head="ssr" rel="preconnect" href="https://fonts.gstatic.com"><link data-n-head="ssr" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap"><link data-n-head="ssr" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;600;700&display=swap"><link rel="preload" href="/_nuxt/274be17.js" as="script"><link rel="preload" href="/_nuxt/c224c56.js" as="script"><link rel="preload" href="/_nuxt/1d2f1ac.js" as="script"><link rel="preload" href="/_nuxt/e26b102.js" as="script"><link rel="preload" href="/_nuxt/6649b2f.js" as="script"><style data-vue-ssr-id="f52d43e0:0 517a8dd7:0 019e1cef:0 7105c439:0 51d05d06:0 5dc6def0:0">.page-enter-active,.page-leave-active{transition:opacity .2s}.page-enter,.page-leave-to{opacity:0}html{overflow-y:scroll}body{margin:0}.flex-wrapper{display:flex;min-height:100vh;flex-direction:column}h1,h2,h3,h4,h5,h6{font-family:Montserrat,sans-serif}a,a:active,a:hover,a:link,a:visited{color:#4142a6;font-weight:600}a,a:active,a:hover,a:link,a:visited,button{font-family:Montserrat,sans-serif;text-decoration:none}li,p,table{font-family:"Roboto Mono",monospace}::-moz-selection{color:#fff;background:#4559a7}::selection{color:#fff;background:#4559a7}code[class*=language-],pre[class*=language-]{color:#000;background:0 0;text-shadow:0 1px #fff;font-family:Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-] ::-moz-selection,code[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}.navbar[data-v-93d6ece4]{position:fixed;background-color:#fff;padding-top:15px;padding-bottom:15px;height:50px;width:100%;left:0;top:0;z-index:10000}.shadow[data-v-93d6ece4]{box-shadow:1px 1px 10px #bbb;transition:box-shadow .2s ease-in-out}.navbar .items[data-v-93d6ece4]{margin:auto;max-width:1800px}.navbar .items #i1[data-v-93d6ece4]{margin-left:20px}.navbar ul[data-v-93d6ece4]{list-style-type:none;margin:0;padding:15px 0 0}.navbar li[data-v-93d6ece4]{display:inline;margin-left:35px}.navbar .links a[data-v-93d6ece4]{color:#000;text-decoration:none;display:inline-block;font-weight:400;position:relative}.navbar .links a[data-v-93d6ece4]:after{background:none repeat scroll 0 0 transparent;bottom:0;content:"";display:block;height:2px;left:50%;background:#4559a7;transition:width .1s ease 0s,left .1s ease 0s;width:0}.navbar .links a[data-v-93d6ece4]:hover:after{width:100%;left:0}.navbar button[data-v-93d6ece4]{float:right}.navbar #logo[data-v-93d6ece4]{width:50px;height:50px;float:left;border-radius:5px;margin-left:10%}.navbar button[data-v-93d6ece4]{height:40px;width:100px;margin-top:-10px;margin-right:10%;border-radius:5px;border-style:none;background-color:#4559a7;color:#fff;font-size:11pt;font-weight:500}.navbar button[data-v-93d6ece4]:hover{border:4px solid #1c2b5e;transition:border-width .1s ease}.navbar button[data-v-93d6ece4]:active{background-color:#1c2b5e}.navbar #hamburger[data-v-93d6ece4]{float:right;margin-right:30px;display:none}@media screen and (max-width:800px){.links[data-v-93d6ece4]{margin-left:0}.links[data-v-93d6ece4],.navbar #logo[data-v-93d6ece4]{transition:margin-left .2s ease}.navbar #logo[data-v-93d6ece4],.navbar button[data-v-93d6ece4]{margin-left:30px}.navbar button[data-v-93d6ece4]{width:120px;margin-top:10px;margin-bottom:20px;display:block;float:none}.navbar .items #hamburger[data-v-93d6ece4]{display:inline}.navbar .items .links[data-v-93d6ece4]{background-color:#fff;padding-bottom:20px;box-shadow:0 4px 4px -2px #bbb;display:none}.navbar .items .links a[data-v-93d6ece4],.navbar .items .links.active[data-v-93d6ece4]{display:block}.navbar li #i1[data-v-93d6ece4]{margin-top:50px}.navbar li a[data-v-93d6ece4]{display:block;font-size:20pt;padding-left:30px;width:-webkit-max-content;width:-moz-max-content;width:max-content}.navbar .items #i1[data-v-93d6ece4]{margin-left:0}}.hamburger .line[data-v-93d6ece4]{width:35px;height:3px;background-color:#000;display:block;margin:8px auto;transition:all .2s ease-in-out}.hamburger[data-v-93d6ece4]:hover{cursor:pointer}#hamburger.hamburger-active .line[data-v-93d6ece4]:nth-child(2){opacity:0}#hamburger.hamburger-active .line[data-v-93d6ece4]:first-child{transform:translateY(10px) rotate(45deg)}#hamburger.hamburger-active .line[data-v-93d6ece4]:nth-child(3){transform:translateY(-13px) rotate(-45deg)}.minutes[data-v-817d3eca]{margin:100px auto auto;width:80%;max-width:1400px}.footer[data-v-0b0635b0]{margin-top:100px;background-color:#f7f7f7;border-bottom:10px solid #4559a7;width:100%;height:250px}a[data-v-0b0635b0]{color:#000}.footer .content[data-v-0b0635b0]{padding-top:20px;margin:auto;width:80%;max-width:1400px;display:flex;justify-content:space-between}.footer .content h1[data-v-0b0635b0]{font-size:16pt}.footer .content p[data-v-0b0635b0]{font-size:11pt}.footer .content a[data-v-0b0635b0]{font-family:"Roboto Mono",monospace;text-decoration:none;font-weight:400}.footer .content .right[data-v-0b0635b0]{float:right;margin-right:80px}.footer .content #guild_logo[data-v-0b0635b0]{margin-top:30px;width:80px}.footer .content #social_icons img[data-v-0b0635b0]{width:25px;border-radius:5px;margin-bottom:10px}.footer .content #social_icons #following img[data-v-0b0635b0]{margin-left:10px}.footer .content #accreditation[data-v-0b0635b0]{margin-top:70px;font-size:8pt;color:#696969}.footer .content #accreditation a[data-v-0b0635b0]{color:#696969}@media screen and (max-width:800px){.footer[data-v-0b0635b0]{height:500px}.footer .content #guild_logo[data-v-0b0635b0]{margin-top:10px}.footer .content[data-v-0b0635b0]{display:block}.footer .content .right[data-v-0b0635b0]{float:none}.footer .content #accreditation[data-v-0b0635b0]{margin-top:15px}}</style><link rel="preload" href="/_nuxt/static/1612689175/minutes/2018-04-06-SGM/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1612689175/manifest.js" as="script">
+  </head>
+  <body>
+    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div class="flex-wrapper"><div class="navbar" data-v-93d6ece4><div class="items" data-v-93d6ece4><a href="/" class="nuxt-link-active" data-v-93d6ece4><img id="logo" src="/_nuxt/img/comssa.7d12064.png" data-v-93d6ece4></a> <div id="hamburger" class="hamburger" data-v-93d6ece4><span class="line" data-v-93d6ece4></span> <span class="line" data-v-93d6ece4></span> <span class="line" data-v-93d6ece4></span></div> <div id="links" class="links" data-v-93d6ece4><ul class="menu" data-v-93d6ece4><li data-v-93d6ece4><a href="/about" id="i1" data-v-93d6ece4>About</a></li> <li data-v-93d6ece4><a href="/events" id="i2" data-v-93d6ece4>Events</a></li> <li data-v-93d6ece4><a href="/sponsors" id="i3" data-v-93d6ece4>Sponsors</a></li> <li data-v-93d6ece4><button data-v-93d6ece4>Join Now</button></li></ul></div></div></div> <div class="minutes" data-v-817d3eca><h1 data-v-817d3eca>Minutes for 2018-04-06</h1> <div class="nuxt-content" data-v-817d3eca data-v-817d3eca><p data-v-817d3eca data-v-817d3eca><img alt="" src="../../images/letterhead.png" data-v-817d3eca data-v-817d3eca></p>
+<h2 id="what-comssa-special-general-meeting" data-v-817d3eca data-v-817d3eca><a href="#what-comssa-special-general-meeting" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>What: ComSSA Special General Meeting</h2>
+<h2 id="venue-314224" data-v-817d3eca data-v-817d3eca><a href="#venue-314224" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Venue: 314.224</h2>
+<h2 id="date-2018-04-06" data-v-817d3eca data-v-817d3eca><a href="#date-2018-04-06" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Date: 2018-04-06</h2>
+<h2 id="start-0400pm" data-v-817d3eca data-v-817d3eca><a href="#start-0400pm" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Start: 04:00pm</h2>
+<h2 id="attendance" data-v-817d3eca data-v-817d3eca><a href="#attendance" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Attendance</h2>
+<h3 id="committee" data-v-817d3eca data-v-817d3eca><a href="#committee" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Committee</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Ashtyn Antulov</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Nehal Ghuman</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Yi Juin Lim</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Lincoln Short</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Isaac Waugh</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Christian Brunette</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Jim Dawes</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Sam Bray</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Jorel Paddick</p>
+</li>
+</ul>
+<h3 id="guests" data-v-817d3eca data-v-817d3eca><a href="#guests" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Guests</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>SGM</p>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Returning Officer: Adam Parsons</li>
+<li data-v-817d3eca data-v-817d3eca>Members: 35 people</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Meeting (After SGM)</p>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Sam Stoddart</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Jhi Morris</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Joe Thorpe</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Kai Ciccarelli</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Owen Frere</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Rayden</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Matt Oldfield</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Matthew Cheong</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Josh Yeo</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Simeon Leatherland</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Chris Chang</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Luke Mercuri</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="apologies" data-v-817d3eca data-v-817d3eca><a href="#apologies" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Apologies</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Jeremy Ciccarelli</li>
+</ul>
+<h3 id="absent" data-v-817d3eca data-v-817d3eca><a href="#absent" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Absent</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>none</li>
+</ul>
+<h2 id="old-minutes" data-v-817d3eca data-v-817d3eca><a href="#old-minutes" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Old Minutes</h2>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>accepted</li>
+</ul>
+<h2 id="old-action-items" data-v-817d3eca data-v-817d3eca><a href="#old-action-items" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Old Action Items</h2>
+<h3 id="wiecd--comssa" data-v-817d3eca data-v-817d3eca><a href="#wiecd--comssa" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>WIECD + ComSSA</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>combination of 2 clubs for events</li>
+<li data-v-817d3eca data-v-817d3eca>e.g. bowling, ice skating etc</li>
+<li data-v-817d3eca data-v-817d3eca>haven't made any formal progress
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>still need to speak to their president</li>
+</ul>
+</li>
+</ul>
+<h3 id="bank-access" data-v-817d3eca data-v-817d3eca><a href="#bank-access" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Bank Access</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>resolved</li>
+<li data-v-817d3eca data-v-817d3eca>all signatories have bank access</li>
+<li data-v-817d3eca data-v-817d3eca>reimbursement all done too</li>
+<li data-v-817d3eca data-v-817d3eca>if anyone has any remaining, please submit
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Jeremy still needs to send his for stickers</li>
+</ul>
+</li>
+</ul>
+<h2 id="treasury-report" data-v-817d3eca data-v-817d3eca><a href="#treasury-report" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Treasury Report</h2>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Reimbursed everyone who ComSSA owed money too.</li>
+<li data-v-817d3eca data-v-817d3eca>still waiting for money to form guild for club vouchers</li>
+</ul>
+<h3 id="march-2018" data-v-817d3eca data-v-817d3eca><a href="#march-2018" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>March 2018</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca><a href="https://drive.google.com/open?id=1o-63FqmGm3jkbtFM7ZZY62jTnwSY6_xt" rel="nofollow noopener noreferrer" target="_blank" data-v-817d3eca data-v-817d3eca>https://drive.google.com/open?id=1o-63FqmGm3jkbtFM7ZZY62jTnwSY6_xt</a></li>
+<li data-v-817d3eca data-v-817d3eca>Ending: 2018-03-31 (31 days)</li>
+<li data-v-817d3eca data-v-817d3eca>revenue: $1787.99
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>$595.20 - Pool Table</li>
+<li data-v-817d3eca data-v-817d3eca>$371.65 -  Membership/Ticket Sales (Cash Deposit)</li>
+<li data-v-817d3eca data-v-817d3eca>$601.04 -  Membership/Ticket Sales (TidyHQ Stripes)</li>
+<li data-v-817d3eca data-v-817d3eca>$220.10 - Reimbursement for Pizza</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>expenditure: $1,673.29
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>$327.12 - Annual TidyHQ Subscription Renewal</li>
+<li data-v-817d3eca data-v-817d3eca>$28.77 - Printing for Revision Session (2017)</li>
+<li data-v-817d3eca data-v-817d3eca>$199.00 - Business Name Renewal</li>
+<li data-v-817d3eca data-v-817d3eca>$819.00 - ComSSA Ice Breaker Event Tickets</li>
+<li data-v-817d3eca data-v-817d3eca>$106.70 - Grill The Department Drinks and Ice</li>
+<li data-v-817d3eca data-v-817d3eca>$192.70 - Moving Safe Money to Bank</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>discrepancy: $0</li>
+<li data-v-817d3eca data-v-817d3eca>deposit: $ 0</li>
+<li data-v-817d3eca data-v-817d3eca>balance: $16,820.55</li>
+</ul>
+<h3 id="february-2018" data-v-817d3eca data-v-817d3eca><a href="#february-2018" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>February 2018</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca><a href="https://drive.google.com/open?id=10aNkJq80VLhXUli7yv-9CsIM2kodR04O" rel="nofollow noopener noreferrer" target="_blank" data-v-817d3eca data-v-817d3eca>https://drive.google.com/open?id=10aNkJq80VLhXUli7yv-9CsIM2kodR04O</a></li>
+<li data-v-817d3eca data-v-817d3eca>Ending: 2018-02-28 (28 days)</li>
+<li data-v-817d3eca data-v-817d3eca>revenue: $21.76
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>$21.76 - Membership/Ticket Sales (TidyHQ Stripes)</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>expenditure: $90
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>$90 - Expired Guild 2017 Vouchers</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>discrepancy: $0</li>
+<li data-v-817d3eca data-v-817d3eca>deposit: $ 0</li>
+<li data-v-817d3eca data-v-817d3eca>balance: $16,705.85</li>
+</ul>
+<h3 id="january-2018" data-v-817d3eca data-v-817d3eca><a href="#january-2018" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>January 2018</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca><a href="https://drive.google.com/open?id=1luJg5IQQzy2fm2yUry3cVFoYBEUj6rsW" rel="nofollow noopener noreferrer" target="_blank" data-v-817d3eca data-v-817d3eca>https://drive.google.com/open?id=1luJg5IQQzy2fm2yUry3cVFoYBEUj6rsW</a></li>
+<li data-v-817d3eca data-v-817d3eca>Ending: 2018-01-31 (31 days)</li>
+<li data-v-817d3eca data-v-817d3eca>revenue: $0</li>
+<li data-v-817d3eca data-v-817d3eca>expenditure: $0</li>
+<li data-v-817d3eca data-v-817d3eca>discrepancy: $0</li>
+<li data-v-817d3eca data-v-817d3eca>deposit: $0</li>
+<li data-v-817d3eca data-v-817d3eca>balance: $16,774.09</li>
+</ul>
+<h3 id="december-2017" data-v-817d3eca data-v-817d3eca><a href="#december-2017" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>December 2017</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca><a href="https://drive.google.com/open?id=1iOiZ6fmKC3t2rAbklTY3gOg9gCqfM456" rel="nofollow noopener noreferrer" target="_blank" data-v-817d3eca data-v-817d3eca>https://drive.google.com/open?id=1iOiZ6fmKC3t2rAbklTY3gOg9gCqfM456</a></li>
+<li data-v-817d3eca data-v-817d3eca>Ending: 2017-12-31 (31 days)</li>
+<li data-v-817d3eca data-v-817d3eca>revenue: $251.53
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>$251.53 - Membership/Ticket Sales (TidyHQ Stripes)</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>expenditure: $0</li>
+<li data-v-817d3eca data-v-817d3eca>discrepancy: $0</li>
+<li data-v-817d3eca data-v-817d3eca>deposit: $ 0</li>
+<li data-v-817d3eca data-v-817d3eca>balance: $16,774.09</li>
+</ul>
+<h3 id="november-2017" data-v-817d3eca data-v-817d3eca><a href="#november-2017" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>November 2017</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca><a href="https://drive.google.com/open?id=15wE2y7-1WUN5_wEtmqZ5dO4kLazMeuq9" rel="nofollow noopener noreferrer" target="_blank" data-v-817d3eca data-v-817d3eca>https://drive.google.com/open?id=15wE2y7-1WUN5_wEtmqZ5dO4kLazMeuq9</a></li>
+<li data-v-817d3eca data-v-817d3eca>Ending: 2017-11-30 (19 days)</li>
+<li data-v-817d3eca data-v-817d3eca>revenue: $181.28
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>$181.28 - Membership/Ticket Sales (TidyHQ Stripes)</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>expenditure: $0</li>
+<li data-v-817d3eca data-v-817d3eca>discrepancy: $0</li>
+<li data-v-817d3eca data-v-817d3eca>deposit: $0</li>
+<li data-v-817d3eca data-v-817d3eca>balance: $16,522.56</li>
+</ul>
+<h2 id="agenda-items" data-v-817d3eca data-v-817d3eca><a href="#agenda-items" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Agenda Items</h2>
+<h3 id="ex-president" data-v-817d3eca data-v-817d3eca><a href="#ex-president" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Ex President</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Sam gave a touching thank you speech</li>
+</ul>
+<h3 id="president-vote" data-v-817d3eca data-v-817d3eca><a href="#president-vote" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>President Vote</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Attendance: 35 members (including committee)</li>
+<li data-v-817d3eca data-v-817d3eca>Vote on Adam Parson being returning officer
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>simple majority passed</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Candidates
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Nehal Ghuman</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Voting: Simple majority vote
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Results:
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Nehal voted in as President uncontested</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="treasurer-vote" data-v-817d3eca data-v-817d3eca><a href="#treasurer-vote" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Treasurer Vote</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Candidates
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Isaac Waugh</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Voting: Simple majority vote
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Results:
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Isaac voted in as Treasurer uncontested</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="past-and-upcoming-events" data-v-817d3eca data-v-817d3eca><a href="#past-and-upcoming-events" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Past and Upcoming Events</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Jean gave a quick overview of past events
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>OOPD and UCP revision session over 300 students attended
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>thanks Sam, Jeremy for running OOPD</li>
+<li data-v-817d3eca data-v-817d3eca>thanks Christian, Sara for running UCP</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Atlassian Talk and Internships talk</li>
+<li data-v-817d3eca data-v-817d3eca>social : grill the department, ice skating</li>
+<li data-v-817d3eca data-v-817d3eca>thanks everyone for coming and supporting our events</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Ash gave a quick overview of upcoming events
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>mostly revisions sessions (OOPC, ISE, UCP, FOP)</li>
+<li data-v-817d3eca data-v-817d3eca>social: LAN</li>
+</ul>
+</li>
+</ul>
+<h3 id="sgm-treasury-report" data-v-817d3eca data-v-817d3eca><a href="#sgm-treasury-report" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>SGM treasury report</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>loss in ice skating (since we're not trying to make money)</li>
+<li data-v-817d3eca data-v-817d3eca>expenditure - services like business name and tidyhq subscription</li>
+<li data-v-817d3eca data-v-817d3eca>income : pool table and membership</li>
+<li data-v-817d3eca data-v-817d3eca>expenditure just slightly less than income, pretty good</li>
+<li data-v-817d3eca data-v-817d3eca>no objections to the report</li>
+</ul>
+<h3 id="ocm-vote" data-v-817d3eca data-v-817d3eca><a href="#ocm-vote" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>OCM Vote</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>open till today if anyone else wants to put their name down</li>
+<li data-v-817d3eca data-v-817d3eca>not voting/deciding on the spot today</li>
+<li data-v-817d3eca data-v-817d3eca>Jhi Morris wants to put his name down</li>
+<li data-v-817d3eca data-v-817d3eca>Candidates:
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Jhi Morris
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>first year in computing</li>
+<li data-v-817d3eca data-v-817d3eca>why: can do some good for comssa, community, will give a lot of effort to benefit comssa and students, do something for Curtin as a whole</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Joe
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>first year in computing</li>
+<li data-v-817d3eca data-v-817d3eca>time as very valuable, have a lot of time, and wants to see comssa grow, know how to make a club grow and want to bring the same thing to comssa</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Simeon
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>why: comssa revision sessions have helped him out a lot, want to give back to the club</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Chris</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>SamS:
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>OCM is really great and can make difference, can get a vote in the committee. But also not the only way for members to get involved</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Preferably all of committee to decide together instead of just exec committee</li>
+</ul>
+<h3 id="committee-responsibility-for-running-events" data-v-817d3eca data-v-817d3eca><a href="#committee-responsibility-for-running-events" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Committee responsibility for running events</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>On us on getting assistance from regular members, but have one person of committee responsible.</li>
+<li data-v-817d3eca data-v-817d3eca>committee members will have responsibility of an event, but normal members feel free to get involved</li>
+<li data-v-817d3eca data-v-817d3eca>normal members are welcomed to coming and help out at events</li>
+</ul>
+<h3 id="revision-sessions" data-v-817d3eca data-v-817d3eca><a href="#revision-sessions" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Revision Sessions</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>ISE
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>90 sign ups</li>
+<li data-v-817d3eca data-v-817d3eca>got around 7-8 tutors</li>
+<li data-v-817d3eca data-v-817d3eca>SamS happy to run the second ISE</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>FOP
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Chris running it</li>
+</ul>
+</li>
+</ul>
+<h3 id="eng-pav-room-card-access" data-v-817d3eca data-v-817d3eca><a href="#eng-pav-room-card-access" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Eng Pav room Card access</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Jermey, Jorel, new OCM still dont have access</li>
+<li data-v-817d3eca data-v-817d3eca>some should have access, but doesn't work
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>everyone need to go check their cards at Eng Pav</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>go to Amanda (the room next to our room in Eng Pav) and ask from her</li>
+</ul>
+<h3 id="whiteboard-advertising" data-v-817d3eca data-v-817d3eca><a href="#whiteboard-advertising" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Whiteboard advertising</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Amy’s message earlier regarding whiteboard advertising</li>
+<li data-v-817d3eca data-v-817d3eca>taking up too much space
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>make sure keep it small and at the edge</li>
+</ul>
+</li>
+</ul>
+<h3 id="social-events-for-rest-of-semester" data-v-817d3eca data-v-817d3eca><a href="#social-events-for-rest-of-semester" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Social events for rest of semester</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Bowling
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>will be good</li>
+<li data-v-817d3eca data-v-817d3eca>thinking about feasibility</li>
+<li data-v-817d3eca data-v-817d3eca>sometime in May</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Bounce?</li>
+<li data-v-817d3eca data-v-817d3eca>Games Night/Movie Night?
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Jhi: awesome to have big events (ice skating etc), good to also have smaller events where you can meet people outside of your year group, put thought into events
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>low overhead</li>
+<li data-v-817d3eca data-v-817d3eca>something more regular, like per fortnight</li>
+<li data-v-817d3eca data-v-817d3eca>just need someone to work out what movie to watch</li>
+<li data-v-817d3eca data-v-817d3eca>can get recommendations for movies as well</li>
+<li data-v-817d3eca data-v-817d3eca>Nehal: will need to have someone in charge, to organise and setting up</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Laser Tag?</li>
+<li data-v-817d3eca data-v-817d3eca>Hackaton
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Isaac: run it during when it's more convenient for us (usually during busy periods)</li>
+<li data-v-817d3eca data-v-817d3eca>Simeon: can go to someone in the industry to ask for like sponsorship and ideas</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Hacking Challenges
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>WACTF</li>
+<li data-v-817d3eca data-v-817d3eca>CysCA
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Mihai, LukeH, Josh, and LukeM gave training last year for CysCA</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Game Dev
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>need to actually find someone who knows</li>
+<li data-v-817d3eca data-v-817d3eca>Isaac start doing research into it - on feasibility</li>
+</ul>
+</li>
+</ul>
+<h3 id="inter-club-olympics" data-v-817d3eca data-v-817d3eca><a href="#inter-club-olympics" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Inter-Club Olympics</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Josh and Ash keen</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>all the clubs on campus have a day</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>meet diff people from diff parts of the uni</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>happy to join</p>
+</li>
+<li data-v-817d3eca data-v-817d3eca>
+<p data-v-817d3eca data-v-817d3eca>Ash will fill in forms needed</p>
+</li>
+</ul>
+<h3 id="tfti-speakers-atlassian-avanade" data-v-817d3eca data-v-817d3eca><a href="#tfti-speakers-atlassian-avanade" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>TFTI speakers (Atlassian, Avanade)</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>18th of April</li>
+<li data-v-817d3eca data-v-817d3eca>Avanade
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>maybe</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>SMS
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>yes</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Diamond
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>not responded</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>SamS still happy to run it
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>room booking is done</li>
+<li data-v-817d3eca data-v-817d3eca>just need to do advertising, pizza</li>
+<li data-v-817d3eca data-v-817d3eca>Jean happy to help</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>last time complaints:
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>didn't have seats for speakers</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>schedule
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>google form to submit questions</li>
+<li data-v-817d3eca data-v-817d3eca>10-15 mins to speak</li>
+<li data-v-817d3eca data-v-817d3eca>5 mins to rest</li>
+<li data-v-817d3eca data-v-817d3eca>a panel at the end</li>
+</ul>
+</li>
+</ul>
+<h3 id="comssa-jobs" data-v-817d3eca data-v-817d3eca><a href="#comssa-jobs" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>ComSSA Jobs</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>happy to just send it to the ComSSA Jobs</li>
+<li data-v-817d3eca data-v-817d3eca>and maybe on one of the channel on the computing discord</li>
+</ul>
+<h3 id="training-new-treasurer-up" data-v-817d3eca data-v-817d3eca><a href="#training-new-treasurer-up" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Training new Treasurer up</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Nehal and Isaac will figure out something soon</li>
+<li data-v-817d3eca data-v-817d3eca>SamS and Nehal as well</li>
+</ul>
+<h3 id="reaching-out-to-guild-again-on-labs-condition" data-v-817d3eca data-v-817d3eca><a href="#reaching-out-to-guild-again-on-labs-condition" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Reaching out to guild again on labs condition</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Amy and Mark has requested we reach out again cause there was some news before but it died down due to change of management</li>
+<li data-v-817d3eca data-v-817d3eca>Ash met up with Hana (from Science and Eng Faculty) 2 weeks ago
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>really organised and keen to help</li>
+<li data-v-817d3eca data-v-817d3eca>in the process of who's making the funding</li>
+<li data-v-817d3eca data-v-817d3eca>need to find Ling as well</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>SamS has sent out mail to the important people in the faculty</li>
+<li data-v-817d3eca data-v-817d3eca>this also has a possibly of getting a bad outcome</li>
+<li data-v-817d3eca data-v-817d3eca>things to make clear of what the labs need : projectors, consoles, space</li>
+</ul>
+<h2 id="past-events" data-v-817d3eca data-v-817d3eca><a href="#past-events" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Past Events</h2>
+<h3 id="comssa-on-ice---16-mar" data-v-817d3eca data-v-817d3eca><a href="#comssa-on-ice---16-mar" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>ComSSA on Ice - 16 Mar</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>success</li>
+</ul>
+<h3 id="ey-recruitment-event" data-v-817d3eca data-v-817d3eca><a href="#ey-recruitment-event" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>EY Recruitment Event</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Lessons learned?
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>double check on EMP next time</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>merged event with Curtin IET on Campus and ACES(Association of Chemical Engineering Students)</li>
+<li data-v-817d3eca data-v-817d3eca>good turn up of computing students as well</li>
+<li data-v-817d3eca data-v-817d3eca>went better than we would have been by ourselves</li>
+</ul>
+<h3 id="revision-sessions-1" data-v-817d3eca data-v-817d3eca><a href="#revision-sessions-1" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Revision Sessions</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>UCP, OOPD
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>good</li>
+</ul>
+</li>
+</ul>
+<h3 id="atlassian-recruitment-talk---14-mar" data-v-817d3eca data-v-817d3eca><a href="#atlassian-recruitment-talk---14-mar" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Atlassian Recruitment Talk - 14 Mar</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>excellent turn out</li>
+</ul>
+<h3 id="internship-talk---28-mar" data-v-817d3eca data-v-817d3eca><a href="#internship-talk---28-mar" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Internship Talk - 28 Mar</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>good</li>
+</ul>
+<h2 id="upcoming-events" data-v-817d3eca data-v-817d3eca><a href="#upcoming-events" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Upcoming Events</h2>
+<h3 id="tfti" data-v-817d3eca data-v-817d3eca><a href="#tfti" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>TFTI</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>18th April</li>
+<li data-v-817d3eca data-v-817d3eca>Venue Booking: done</li>
+<li data-v-817d3eca data-v-817d3eca>Who’s in charge of it: SamS still happy to be in charge</li>
+<li data-v-817d3eca data-v-817d3eca>Advertising: starting soon</li>
+</ul>
+<h3 id="sgm" data-v-817d3eca data-v-817d3eca><a href="#sgm" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>SGM</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>all good</li>
+</ul>
+<h3 id="lan" data-v-817d3eca data-v-817d3eca><a href="#lan" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>LAN</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>room booking
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>talking to tele</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>EMP submitted</li>
+</ul>
+<h3 id="upcoming-revision-sessions" data-v-817d3eca data-v-817d3eca><a href="#upcoming-revision-sessions" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Upcoming revision sessions</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Units
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>OOPD
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Jeremy happy to do next</li>
+<li data-v-817d3eca data-v-817d3eca>need to change some of Jordan's stuff but no source code</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>ISE
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>SamS</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>UCP
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Christian</li>
+<li data-v-817d3eca data-v-817d3eca>need to book room for UCP</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>DSA
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>SamB</li>
+<li data-v-817d3eca data-v-817d3eca>already have materials, just need to change to write this up in python and java (instead of just java)</li>
+<li data-v-817d3eca data-v-817d3eca>need to work out who's rotating between DSA and FOP
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>cause both need someone who knows Python</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>get something for Michelle, been really helpful</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>Room booking
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>all done except for UCP</li>
+<li data-v-817d3eca data-v-817d3eca>Speak to UC and book with Michelle Cutinha</li>
+<li data-v-817d3eca data-v-817d3eca>Book all remaining sessions now? (Up to exam revision sessions)
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>can do it once exam timetable is out</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>SamB: swapping OOPD and DSA booking for rooms cause OOPD will have more attendance
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>tutors might need to swap between rooms</li>
+<li data-v-817d3eca data-v-817d3eca>3 different sessions on the 15th, FOP, OOPD and ISE</li>
+</ul>
+</li>
+</ul>
+<h2 id="general-discussion" data-v-817d3eca data-v-817d3eca><a href="#general-discussion" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>General Discussion</h2>
+<h3 id="how-to-get-involved-with-comssa" data-v-817d3eca data-v-817d3eca><a href="#how-to-get-involved-with-comssa" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>How to get involved with ComSSA</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>question on discord</li>
+<li data-v-817d3eca data-v-817d3eca>can be involved even not OCM</li>
+<li data-v-817d3eca data-v-817d3eca>can bring things up in meetings
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>non committee can come anyway</li>
+<li data-v-817d3eca data-v-817d3eca>we'll start advertise on discord</li>
+<li data-v-817d3eca data-v-817d3eca>meeting is an open forum</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>can also help up with events if they want
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>not just applicable to committee</li>
+</ul>
+</li>
+</ul>
+<h3 id="guild-ball" data-v-817d3eca data-v-817d3eca><a href="#guild-ball" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Guild Ball</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>combined ball with all the other STEM clubs in Curtin</li>
+<li data-v-817d3eca data-v-817d3eca>is anyone interested in this being a thing
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>WIECD trying to reduce stigma as well, combine events with ComSSA</li>
+<li data-v-817d3eca data-v-817d3eca>will give more details in the next meeting</li>
+<li data-v-817d3eca data-v-817d3eca>quite a bit of people interested</li>
+<li data-v-817d3eca data-v-817d3eca>price not set yet but will be around $100-150, might be lower depending on the amount of people</li>
+</ul>
+</li>
+</ul>
+<h3 id="sponsors" data-v-817d3eca data-v-817d3eca><a href="#sponsors" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Sponsors</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>get monetary stuff from sponsors</li>
+</ul>
+<h3 id="quiz-night" data-v-817d3eca data-v-817d3eca><a href="#quiz-night" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Quiz Night</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>food been approved for quiz night</li>
+</ul>
+<h3 id="safe" data-v-817d3eca data-v-817d3eca><a href="#safe" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Safe</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>have some float as per constitution and comssa stickers in a locker (out of senior tutes)</li>
+</ul>
+<h3 id="adventure-world" data-v-817d3eca data-v-817d3eca><a href="#adventure-world" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Adventure world</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>good idea to do early mid next semester for tickets</li>
+</ul>
+<h3 id="cue-tips-for-pool-table" data-v-817d3eca data-v-817d3eca><a href="#cue-tips-for-pool-table" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Cue Tips for Pool Table</h3>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>someone might be intentionally destroying
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>replaced 3 times in 2 weeks</li>
+</ul>
+</li>
+<li data-v-817d3eca data-v-817d3eca>buy good cues, buy in bulk</li>
+<li data-v-817d3eca data-v-817d3eca>maybe put up signs</li>
+</ul>
+<h2 id="new-action-items" data-v-817d3eca data-v-817d3eca><a href="#new-action-items" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>New Action Items</h2>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>Everyone - try if their cards work with Eng Pav in the coming week</li>
+<li data-v-817d3eca data-v-817d3eca>Isaac - research on feasibility of running a game dev session/event</li>
+<li data-v-817d3eca data-v-817d3eca>Ash - fill in the forms needed for Inter Club Olympics</li>
+<li data-v-817d3eca data-v-817d3eca>Nehal - figure out what Delan had paid and how much</li>
+</ul>
+<h2 id="next-meeting" data-v-817d3eca data-v-817d3eca><a href="#next-meeting" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Next Meeting</h2>
+<ul data-v-817d3eca data-v-817d3eca>
+<li data-v-817d3eca data-v-817d3eca>TBD</li>
+</ul>
+<h2 id="finish-600-pm" data-v-817d3eca data-v-817d3eca><a href="#finish-600-pm" aria-hidden="true" tabindex="-1" data-v-817d3eca data-v-817d3eca><span class="icon icon-link" data-v-817d3eca data-v-817d3eca></span></a>Finish: 6:00 pm</h2></div></div> <div class="footer" data-v-0b0635b0><div class="content" data-v-0b0635b0><div class="col1" data-v-0b0635b0><h1 data-v-0b0635b0>ComSSA</h1> <p data-v-0b0635b0>
+                    Department of Computing<br data-v-0b0635b0>
+                    Building 314 <br data-v-0b0635b0><br data-v-0b0635b0> <a href="https://goo.gl/maps/pBoBbVnBFhNyHnnz9" target="_blank" data-v-0b0635b0>
+                    Curtin University<br data-v-0b0635b0>
+                    Kent Street <br data-v-0b0635b0>
+                    Bentley WA 6102<br data-v-0b0635b0></a></p></div> <div class="right" data-v-0b0635b0><div id="col2" data-v-0b0635b0><h1 data-v-0b0635b0>Social</h1> <div id="social_icons" data-v-0b0635b0><a href="https://www.facebook.com/ComSSACurtin" target="_blank" data-v-0b0635b0><img id="facebook" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABnElEQVRIDe2Vv0sDMRTH38udUsXBqggKWnBxEAeHDq2D6Ooi6E0KhYKCCP4fgrNjq5ODih10LyL4o6ObiyAIbkIHwXqX57uDSC5Q9Lg7O9hb8vLIfT/JNy8JFp0qQQc+0QFmgPx/YDspq4k/QLhFwitJ1OT4u3aQoIQCp3VWImACepHkbdydbtZ1cRUXnco8x8mCeaFN17WWGrXyowL9po1dXGzwXqNWigT1JxbLan9fpXCPzRXOLh9kB/ozc+RRsDCe3AhieFQsMAB69ydbT7pkfuVo2La9BwQcQ8ugaQPjgZGkphWEVo/M+1Azb/Zj77EpqOw182Y/cbAJaNePbLUkuECkz0CQ0DWF+bJ45XN9HsoTLCLioJ7DqK+TeO8dur5cf9NFfooLa9VnruoJfVzqVucWqhlAGtehfpw6eDQrJrnKrT8H8/GaMqF+P3JxuX2t/YJT+QjEJLg3Z+VdXTi/ejhjC7mjcnyFhB4HlY8MFghlvrGC/0lQi4MQWJDMsbXbCtCuTX2Pu2DlQNdq5UTqbdfq1C1WgI5Z/QU3t2zSGPC9HAAAAABJRU5ErkJggg==" data-v-0b0635b0></a> <span id="following" data-v-0b0635b0><a href="https://www.linkedin.com/company/computer-science-students-association" target="_blank" data-v-0b0635b0><img id="linkedin" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACnUlEQVRIDe1Xz2sTQRT+ZrO0CUIVa4sHbwoF8aAY0aMFBROkUIQKHnoQAupV+uNkyNEI/QPqIQfBQyqoUBs1h4I3D+1JBEUU9SqkEHBjk8zz25VsdzcbGprdnBzYnTfv23nfe29+7SgsV8ehdx8DKgOlkoiziDQAqcAYyZkOqTJm4+RzbTuBqVnoFgwnUhcZliAZsyu9Im3SlwBdpVOHASMHhQuRusTITZ9BEYEy5vHw2lNXn98swWq8JHnW1UUgMNXeorZ8pDZUmG7xvQjbqQhLgBgfQ22nkp+Ydh2KHVAZJD4dasdqTHEZBL8N/bRfZcCYnMfSq1u+zvlNzgNd5CRUPv2ADYWlin/sRFokKXEyVaH1kVhmNZ3uJh4kEpEddv/OhxNSnYCSSdahmQqkml0ED1CbGEHtx79H/xnjjP7g+CPyBF/roy6WpAw8I77Nehqp9+MoZs/ySaOYOQ6t0hD91ukbePnXsQ2K/ozVdNPzXZPD8ZPtM/T+G9bmdj0YF9r6Gnb0OlZnfvv0duNRZhv5fAbWxTIDv+HFuyP2ov3IxevlUNJO30JBo9W6w2a9o7LrwYm91nrJKzO/OITPvXB3qr1ov/LCRpYhrND4BIfjBVL1uygEhgTyjth8x+TgEd9/M0nSMo1OcRyPcp3chjV2r0Pg1oIvrkxhcOJEk2e5OuQ1yhl61d9mS1Dz6gYnhnHSa9CRlRzr0pn238deiYA4JGsSsmm0tW+HjIJ4LwxX2v8gi4nY9aCn8J+4Z2qiBmJK9f5mQ7ZMNYeFiuUcqXaYCXOUi/+cE7GSK8S2XMwwFY/Eyw7mf53C8uubaDdpp1MSlzqSXSssbljc6uK9ungZbZlXGeaEd5mhF1Ux7QuUfZehA0O6tCle2szcX0sjwXoA9Z+lAAAAAElFTkSuQmCC" data-v-0b0635b0></a> <a href="https://github.com/ComSSA" target="_blank" data-v-0b0635b0><img id="github" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADH0lEQVRIDb2Xu2tUQRTG972bfbhGsmqxiC6KWPiIihKFpAj4CApiZamViYVWFtbapRDESlBBELTwH1ADdqKFSvABBlwLtZBoQCQm6u76OzdzL3fmzu5skOyBkzNn5nzfN3deSWIxLJFIjOdyuc80WyvpoiFaoumJrqSYjRvxs7F0Ol23Da5kH1/+Ia4ECL211DLkFuPx+BT+BH/XaDR+go0nk8mBZrO5q9VqHSLfjSe65XQdqAWEJguFwjoXIdu2ndr71DVwF2/HghnIdrgEzXFW4Th93xzibYXfAlxvki4j30ntV7zdl1sH5rLZ7CZfpFwur/bbXcQ1fk0qldpPewG3iUc7uWcTPpgoJ3+WvZtmCU9KP9dhA6QH8INqgnLIDlPznOFfeF7qxOi7QnALU1inMC0gMXWoAiDjc3QHuWr/IAYHKpPJbCH3rFKpFGl8x02M3gHx5SXI0s+RkRG5cnJ1TGCnfFWYA86rFrxOKMsXBrGEJ8iDr7EQRCYQvMeKSLbBgtOF1dIoiLdHzyygiJhRM0suZ8MztmstDROjdcyr2iAw208WkEkSyfP5vHkV/4R5nM+behqDiXTZaAwPD8shDJtsl2babKvVal94lINxl1yrceVgpsMcavtMDp2UJ3JPGMRh20e+6BILjTfgOGVw7A2N+xPQhTmRFxVIDseAtNnnMcIb3Ae1i3Xwp6nTTHGamAjZK4VK9vf3Xx8aGrrms/BKbeRrzpBrJKzK+fCj4deHonBqGBkzOyQ/JgNitVrt4ejo6LmlzLtek7Q1DHt60x83I6t1xKxXuU4inRC9J8pTF5M9LhaL84ODg685qS9LpdJfqQk7S/lYai3WB1e7LdJJAHukAO7R9q4by7gV8gtMQvY/smz0T1lE5RfELZ/PEu3CUgjwNjH4hUFb7AHu+uIUSyxnQ6sz8o6DIv6UL94GyDeb8CN/kAO4GYysQCdRGXMWSNFvyO4Qx4gvTAx9M/QdJd4gyrPrEm3JXfXUiT21BMv4saeKiIlmkr+HF/Hg3vZiEuhd8nS4KuP8HfWFxLk3/1PDqydPqvdP2z8rBiNT0wEOWgAAAABJRU5ErkJggg==" data-v-0b0635b0></a> <a href="https://discord.gg/SuwfFfjYJB" target="_blank" data-v-0b0635b0><img id="discord" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADkUlEQVRIDb1XS2sUQRD+ZvY5O8km2SS+YmKiEjXgAyVEvfgCvXn0ooInwZMgnlQQDwn4FzyJqKAg4kFEUREk+FZ8i69oYkxM3GQfmd1kd3bHqo5jMtvjEiW7BU1Pd1d9X/V0VfWMApL9x/tDesg4AsvaAwWNChSV52dLLFh5WOgDrHNGurLz1ImGlCJItbE7iqK0zxZRMRzLwiMjrW/28k5ph2UhZYcUBe26ljyqitdbzMWSrCm7VT7TkmAXAyVOdbYDqRifvcacsxq9NvBMeu9MlJrmB9DarGMsZeLxqyTMnOUwC/goYlaGEQp68K7HQO/AhGPdbVCUeHlLCNs2RBAdzSIaz6KlQcP61VWoqvAiGKDwUIBMxkLCMDE8kkF8LIftG2vF2s17I+REyo1TzCmHTr53uv9btWNVGDu31CEaMzG/3g+VomEmYlGixhImQpoHV24P48GLhKuZ6xnzTratj5DnHjTMDcyYlBmoEKGmyoeAXxUYjOUmrsStzSHUVvvc9P9pjjGWEZabuBKva6t00/2vubV/wZKIOcHaluj/ReJmxFhuSSsRN84LQqO0KJSHLxM4ffk7nrx2Bksub+FGdxRnrgzgc1+60ExgNRFmoUjp1LJQVvrYm8KFaz+E7csPBmprfGheoInx3ccxXO8eEc/vPhs4dqBF5PN0ombC/PJ9fPoUpB0vmBNwKPBg8GfGMTc4PDUe+DlVLCayFkbjpkOXBw0umBJxfY1fMlyxWBfpwQsaFQ4uLLasWVYpCgmP59X5RbPX7L7OBVN61WFdPl9Oi8P7mvCJznDpIg3V4alUW0HBc3BvI4aiGbQt1eHxyIkbrpAxJWIuhbZw4IzEsqiP+BEhcm5uwgHJzZbRRBY6VS6/bxIrSMWkUKSZj71TkenhS5M2cOs+110DppkvtP8zzpOTX/rT4BqdNHJ/SFlhOqZtINVqr1fBrh1zwInP5Y8lT/X3yeskLt0YEmcYoZKoBfmSUDA+kcMo1eYBCritHTXY1F4Nn3dyP1y3n75J4uL1IXLaeSVIr5oVzl/9gXvP4+hYVUU3UlDcNt1PY8jSWt/ghGi259P7Z2+TZBNGPGmip3+cLog4er4508jWl3ZsL5S6l8641IQ2vio+tu1RmXrmpM9b/sIvsxAnh+bZMtMSnXVONVJ6F4X9o3KRT/7CVHaq/ANlpCs2U5Z1kgNfS3HmjCmwrXwX/zcx5y8fZTjpuzvFLgAAAABJRU5ErkJggg==" data-v-0b0635b0></a></span></div> <a href="https://www.guild.curtin.edu.au/" target="_blank" data-v-0b0635b0><img id="guild_logo" src="/_nuxt/img/guild.24e358b.png" data-v-0b0635b0></a></div></div> <div id="col3" data-v-0b0635b0><h1 data-v-0b0635b0>Contact</h1> <a href="mailto:contact@comssa.org.au" data-v-0b0635b0><p data-v-0b0635b0>contact@comssa.org.au</p></a> <p id="accreditation" data-v-0b0635b0>© ComSSA 2021<br data-v-0b0635b0> Design by <a href="https://kevinle.com.au/" target="_blank" data-v-0b0635b0>Kevin Le</a></p></div></div></div></div></div></div><script>window.__NUXT__={staticAssetsBase:"/_nuxt/static/1612689175",layout:"default",error:null,serverRendered:!0,routePath:"/minutes/2018-04-06-SGM",config:{content:{dbHash:"86b310e6"}}}</script><script src="/_nuxt/274be17.js" defer></script><script src="/_nuxt/6649b2f.js" defer></script><script src="/_nuxt/c224c56.js" defer></script><script src="/_nuxt/1d2f1ac.js" defer></script><script src="/_nuxt/e26b102.js" defer></script>
+  </body>
+</html>
