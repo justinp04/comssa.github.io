@@ -16,7 +16,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-@import '~/assets/css/minutes.css';
-</style>
