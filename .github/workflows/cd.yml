@@ -2,8 +2,8 @@ name: deploy to github pages
 
 on:
   push:
-    tags:
-      - '*'
+    branches:
+      - minimal-deployment
 
 jobs:
   cd:
@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
+        with:
+          ref: minimal-deployment
 
       - name: Setup node env
         uses: actions/setup-node@v2.1.2
