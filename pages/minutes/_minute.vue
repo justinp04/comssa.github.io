@@ -13,6 +13,9 @@ export default {
         return {
             page
         }
+    },
+    head: {
+        title: "Minutes"
     }
 }
 </script>
