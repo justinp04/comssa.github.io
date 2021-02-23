@@ -45,7 +45,7 @@
 
       <div id="col3">
         <h1>Contact</h1>
-        <a href="mailto:contact@comssa.org.au"><p>contact@comssa.org.au</p></a>
+        <a href="mailto:contact@comssa.org.au"><p>club@comssa.org.au</p></a>
 
         <p id="accreditation">
           © ComSSA {{ new Date().getFullYear() }}
