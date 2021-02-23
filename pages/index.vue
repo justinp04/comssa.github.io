@@ -21,7 +21,7 @@
     </div>
 
     <div class="level_2">
-      <img id="image_2" src="~/assets/img/comssa-stall.jpg">
+      <img id="image_2" src="~/assets/img/comssa-2021-main.jpg">
 
       <div id="info">
         <h2>Who are we?</h2>
