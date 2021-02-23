@@ -50,9 +50,6 @@
         <p id="accreditation">
           © ComSSA {{ new Date().getFullYear() }}
           <br>
-          <a href="https://github.com/ComSSA/comssa.github.io/" target="_blank">Source Code</a>
-
-          <br>
           Design by <a href="https://kevinle.com.au/" target="_blank">Kevin Le</a>
         </p>
       </div>

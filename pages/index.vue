@@ -17,11 +17,11 @@
         </div>
       </div>
 
-      <img id="image_1" src="~/assets/img/computing.jpg">
+      <img id="image_1" src="~/assets/img/guildgames.jpg">
     </div>
 
     <div class="level_2">
-      <img id="image_2" src="~/assets/img/comssa-stall.jpg">
+      <img id="image_2" src="~/assets/img/computing.jpg">
 
       <div id="info">
         <h2>Who are we?</h2>
