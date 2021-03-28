@@ -44,7 +44,11 @@ $enable-responsive-font-sizes: true;
 }
 
 .front-page-image {
-    max-width: 700px;
+    max-width: 550px;
+}
+
+#desc {
+    margin-left: 20px;
 }
 
 .slick-slider {
@@ -76,6 +80,7 @@ $enable-responsive-font-sizes: true;
         -o-object-fit: cover;
         object-fit: cover;
         width: 100%;
+        max-width: 450px;
     }
 }
 
@@ -132,7 +137,7 @@ $enable-responsive-font-sizes: true;
 #front-page-carousel {
     width: 100%;
     overflow-y: hidden;
-    max-width: 650px;
+    max-width: 450px;
     border-radius: 10px;
 }
 
@@ -417,7 +422,12 @@ a, a:hover, a:link, a:active, a:visited {
 }
 
 .footer {
+    text-align: left;
+
     margin-top: 60px;
+
+    padding-left: 15px;
+    padding-bottom: 20px; 
 
     background-color: rgb(247, 247, 247);
     border-bottom: 10px solid $COMSSA_BLUE;
@@ -478,7 +488,7 @@ a, a:hover, a:link, a:active, a:visited {
     }
 
     .content #accreditation {
-        margin-top: 75px;
+        margin-top: 60px;
 
         font-size: 8pt;
         color: #696969;
@@ -486,6 +496,20 @@ a, a:hover, a:link, a:active, a:visited {
 
     .content #accreditation a {
         color: #696969;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #desc {
+        margin-left: 0;
+    }
+
+    .footer {
+
+        #col_contact {
+            flex-basis: auto !important;
+        }
+
     }
 }
 

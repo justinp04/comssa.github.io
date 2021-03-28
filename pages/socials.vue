@@ -25,7 +25,7 @@
           data-hide-cover="true"
           data-show-facepile="true"
         >
-          Facebook timeline (may be blocked by your ad/tracker-blocker - fair enough)
+          Facebook Timeline (May be blocked by your ad/tracker-blocker)
           <blockquote
             cite="https://www.facebook.com/ComSSACurtin"
             class="fb-xfbml-parse-ignore"

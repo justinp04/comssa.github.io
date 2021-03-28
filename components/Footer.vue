@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="content text-center">
+    <div class="content">
       <b-row>
         <b-col>
           <h1>ComSSA</h1>
@@ -15,7 +15,7 @@
             </a>
           </p>
         </b-col>
-        <b-col>
+        <b-col id="col_social">
           <h1>Social</h1>
           <div id="social-icons">
             <a href="https://www.facebook.com/ComSSACurtin" target="_blank">
@@ -35,7 +35,7 @@
 
           <a href="https://www.guild.curtin.edu.au/" target="_blank"><img id="guild_logo" src="~/assets/img/branding/guild.png"></a>
         </b-col>
-        <b-col>
+        <b-col id="col_contact">
           <h1>Contact</h1>
           <a href="mailto:contact@comssa.org.au"><p>contact@comssa.org.au</p></a>
 
