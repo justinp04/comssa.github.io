@@ -144,6 +144,35 @@
         />
       </b-col>
     </b-row>
+    <h3 class="ord-subheading">
+      Sub-Committee Members
+    </h3>
+    <b-row align-h="around" class="mt-3">
+      <b-col>
+        <Profile
+          name="Sauban"
+          source="Warittha Rayabsri.jpg"
+        />
+      </b-col>
+      <b-col>
+        <Profile
+          name="Jamie"
+          source="Warittha Rayabsri.jpg"
+        />
+      </b-col>
+      <b-col>
+        <Profile
+          name="Gabriel"
+          source="Warittha Rayabsri.jpg"
+        />
+      </b-col>
+      <b-col>
+        <Profile
+          name="Bec"
+          source="Warittha Rayabsri.jpg"
+        />
+      </b-col>
+    </b-row>
   </b-container>
 </template>
 
