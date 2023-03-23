@@ -11,20 +11,20 @@
     </p>
     <b-row align-h="around" class="mt-5">
       <b-col cols="4">
-        <a href="https://www.powerledger.io/">
+        <a href="https://www.vgw.co/">
           <b-img
             width="450"
-            :src="require('~/assets/img/branding/sponsors/powerledger.png')"
+            :src="require('~/assets/img/branding/sponsors/vgw.png')"
             fluid
           />
         </a>
       </b-col>
 
-      <b-col cols="4">
-        <a href="https://www.vgw.co/">
+      <b-col cols="4" class="sponsorImages">
+        <a href="https://tomahawklabs.com.au/">
           <b-img
             width="450"
-            :src="require('~/assets/img/branding/sponsors/vgw.png')"
+            :src="require('~/assets/img/branding/sponsors/tomahawkLabs.png')"
             fluid
           />
         </a>
@@ -43,6 +43,18 @@
       </b-col>
 
       <b-col cols="4">
+        <a href="https://redisoftware.com.au/">
+          <b-img
+            width="450"
+            :src="require('~/assets/img/branding/sponsors/rediSoftwareLogo.png')"
+            fluid
+          />
+        </a>
+      </b-col>
+    </b-row>
+
+    <b-row align-h="around" class="mt-5">
+      <b-col cols="4">
         <a href="https://www.imc.com/">
           <b-img
             width="450"
@@ -51,9 +63,7 @@
           />
         </a>
       </b-col>
-    </b-row>
 
-    <b-row align-h="around" class="mt-5">
       <b-col cols="4">
         <a href="https://www.bankwest.com.au/">
           <b-img

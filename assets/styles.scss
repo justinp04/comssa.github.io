@@ -145,6 +145,18 @@ $enable-responsive-font-sizes: true;
     margin-bottom: 1em;
 }
 
+.sponsorImages {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+}
+
+.tomahawkLabs {
+    max-width: 50%;
+    height: auto;
+}
+
 .carousel-shadow {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
